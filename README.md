@@ -2,6 +2,6 @@
 
 ![Image](https://economicdevelopmentregina.com/wp-content/uploads/2022/05/City-Skyline-Compressed-Keithe-Hershmiller-cropped-1.jpg)
 
-| Name     | Province | City | Year | Capacity |
-| :---------------- |:---------------- | :---------------- | :---------------- | :---------------- |
-| Irving Oil Refinery   | New Brunswick | Saint John  | 1960 | 300,000 |
+| Name     | Location | Phone Number |
+| :---------------- |:---------------- | :---------------- |
+| Mobil   | Albert Street | 306-790-1228  |
