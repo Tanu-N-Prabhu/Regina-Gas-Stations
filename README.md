@@ -82,8 +82,9 @@ This is a dynamic database that is open for public use. I typically scrape the d
 
 # Converting spreadsheet cells to Markdown
 
-1. Select the cells you'd like to convert to Markdown (Ctrl - A)
-2. Copy those cells (Ctrl - C)
-3. Paste the cells (Ctrl-V) in the Table to [Markdown Table Generator Application](https://www.tablesgenerator.com/markdown_tables#)
+1. Select the cells you'd like to convert to Markdown `Ctrl - A`
+2. Copy those cells `Ctrl - C`
+3. Paste the cells `Ctrl-V` in the Table to [Markdown Table Generator Application](https://www.tablesgenerator.com/markdown_tables#)
 4. Generate the Markdown Table
 
+---
