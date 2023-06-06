@@ -1,4 +1,3 @@
-# Regina Gas Stations
 
 ![Image](https://economicdevelopmentregina.com/wp-content/uploads/2022/05/City-Skyline-Compressed-Keithe-Hershmiller-cropped-1.jpg)
 
@@ -92,3 +91,7 @@ This is a dynamic database that is open for public use. I typically scrape the d
 # Converting Jupyter Notebooks into a HTML Webpage
 
 I know right, yes it's possible. Thanks to [Vertopal](https://www.vertopal.com/). Vertopal is an online platform for converting computer files to a variety of file formats. Our main goal is to provide the best conversion quality without the need to install third-party applications. Editing, optimizing, and converting images, documents, spreadsheets, presentations, ebooks, and fonts were never so easy. 
+
+# Result
+
+Click [here](https://github.com/Tanu-N-Prabhu/Regina-Gas-Stations/blob/main/Regina_Gas_Station_EDA.ipynb) for results
