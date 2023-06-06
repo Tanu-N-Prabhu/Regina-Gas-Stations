@@ -88,3 +88,7 @@ This is a dynamic database that is open for public use. I typically scrape the d
 4. Generate the Markdown Table
 
 ---
+
+# Converting Jupyter Notebooks into a HTML Webpage
+
+I know right, yes it's possible. Thanks to [Vertopal](https://www.vertopal.com/). Vertopal is an online platform for converting computer files to a variety of file formats. Our main goal is to provide the best conversion quality without the need to install third-party applications. Editing, optimizing, and converting images, documents, spreadsheets, presentations, ebooks, and fonts were never so easy. 
