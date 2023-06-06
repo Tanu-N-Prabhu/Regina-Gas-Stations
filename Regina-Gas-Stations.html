@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>7c4650090a3645c48b72d9e79ab1dd04</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown" data-colab_type="text" id="view-in-github">
+<p><a href="https://colab.research.google.com/github/Tanu-N-Prabhu/Regina-Gas-Stations/blob/main/Regina_Gas_Station_EDA.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></p>
+</div>
+<div class="cell markdown" id="2MHmdhnGi_if">
+<h1 id="exploring-the-regina-gas-stations-dataset"><strong>Exploring the
+Regina Gas Stations Dataset</strong></h1>
+<p><img
+src="vertopal_7f9f94f348c04af0aee7f6c0ed40ac86/898f75bab7e6d351d9ca1623fb3fc732b7da7e36.jpg"
+alt="Image" /></p>
+<hr />
+<h1 id="table-of-contents"><strong>Table of contents</strong></h1>
+<ol>
+<li><a href="#purpose">Purpose</a></li>
+<li><a href="#loading">Loading the Dataset</a>
+<ol>
+<li><a href="#print">Printing the entire dataset</a></li>
+</ol></li>
+<li><a href="#remove">Removing the empty row</a></li>
+<li><a href="#info">Information about the database</a></li>
+<li><a href="#Key">Key Error</a></li>
+<li><a href="#count">Counting occurrences of a specific value</a></li>
+<li><a href="#group">Grouping Specific Column Data</a></li>
+<li><a href="#plot">Plotting the Data</a></li>
+<li><h2 id="conclusion"><a href="#conclusion">Conclusion</a></h2></li>
+</ol>
+<h2 id="purpose-"><strong>Purpose</strong> <a name="purpose"></a></h2>
+<p>I created this dataset to do some experiments and tell stories. I
+scraped every single data from the Google Maps manually. Although, this
+is a open source dataset, feel free to edit and update if you have any
+great suggestions. All the EDA tools and techniques will be applied on
+this data-set. Get exicited.</p>
+<h2 id="loading-the-dataset-"><strong>Loading the Dataset</strong>
+<a name="loading"></a></h2>
+<p>First you need to upload the dataset to your Google Colab. Then you
+need to <code>read</code> it to your notebook as shown below. Since this
+is not a big dataset interms of having many rows. I stored them in a
+Excel Sheet. A simple way to store big data sets is to use CSV files
+(comma separated files).</p>
+<p>CSV files contains plain text and is a well know format that can be
+read by everyone including Pandas. To read a CSV file you might want to
+use <code>pd.read_csv('data.csv')</code>. instead of
+<code>pd.read_excel</code> which is used for excel stored datasets.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:423}"
+id="r4bV4p10iHOm" data-outputId="ca82b69a-e7d1-491d-d27a-fec55cf106eb">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Reading the dataset</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_excel(<span class="st">&#39;/content/Regina Gas Stations.xlsx&#39;</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>df</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+
+  <div id="df-8ce2d170-aa3f-4990-84c9-2fec69ecae82">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>Location</th>
+      <th>Phone Number</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Mobil</td>
+      <td>Albert Street</td>
+      <td>306-790-1228</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Esso</td>
+      <td>Albert Street</td>
+      <td>306-584-7185</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Canadian Tire - Gas Plus</td>
+      <td>Albert Street</td>
+      <td>306-585-3319</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Co-op Gas Bar</td>
+      <td>Albert Street</td>
+      <td>306-791-8890</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>Cowessess Gas</td>
+      <td>SK-33 Highway</td>
+      <td>306-359-6777</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>Petro Canada</td>
+      <td>Gravel Pit Road</td>
+      <td>306-525-6033</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>Petro Pass Regina</td>
+      <td>529 1 Ave E</td>
+      <td>306-721-6667</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>Co-op Gas Bar</td>
+      <td>Great Plains Road</td>
+      <td>306-791-5707</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>Esso</td>
+      <td>Great Plains Road</td>
+      <td>306-781-2580</td>
+    </tr>
+  </tbody>
+</table>
+<p>69 rows × 3 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-8ce2d170-aa3f-4990-84c9-2fec69ecae82')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-8ce2d170-aa3f-4990-84c9-2fec69ecae82 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-8ce2d170-aa3f-4990-84c9-2fec69ecae82');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<section id="printing-the-entire-dataset-" class="cell markdown"
+id="EYh5NC6spzb_">
+<h3><strong>Printing the entire dataset</strong>
+<a name="print"></a></h3>
+<p>If you wanted to print the entire dataset, then you can use the
+<code>to_string()</code> method. This will consume a lot of RAM but
+worth giving a try and know how it works.</p>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="rqMPEW7RqHTC" data-outputId="b5579949-0fea-4ef5-9d97-809bdc5fceb8">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.to_string())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>                        Name               Location  Phone Number
+0                        NaN                    NaN           NaN
+1                      Mobil         Albert Street   306-790-1228
+2                      Esso          Albert Street   306-584-7185
+3   Canadian Tire - Gas Plus         Albert Street   306-585-3319
+4              Co-op Gas Bar         Albert Street   306-791-8890
+5                      Shell         Albert Street   306-586-4333
+6              Petro Canada          Albert Street   306-585-1849
+7                     Mobil               Broadway   306-569-0255
+8             Co-op Gas Bar            Gordon Road   306-791-9388
+9              Petro Canada          Albert Street   306-522-9112
+10                     Esso          Albert Street   306-525-0414
+11             Petro Canada        Victoria Avenue   306-352-4252
+12            Race Trac Gas            Hill Avenue   306-586-5777
+13              Fas Gas Plus            7th Avenue   306-569-3399
+14                      Esso            7th Avenue            TBD
+15       Regina Discount Gas    Saskatchewan Drive   306-924-8733
+16              Checkers Gas         Pasqua Street   306-791-6362
+17                      Esso         Arcola Avenue   306-525-9121
+18                     Shell         Arcola Avenue   306-525-1717
+19             Petro Canada          Quance Street   306-791-6934
+20         Regina Messenger         Halifax Street            TBD
+21  Regina Cabs Gas Station     Saskatchewan Drive   306-543-3333
+22             Co-op Gas Bar         Dewdney Avenue  306-791-9308
+23                     Husky            Park Street  306-522-0160
+24                     Shell       Victoria Avenue   306-789-9495
+25                     Shell       Victoria Avenue   306-525-1218
+26                     Domo          Albert Street            TBD
+27                      Esso         Albert Street   306-543-1155
+28                    Shell          Albert Street   306-543-2900
+29             Petro Canada            Fleet Street  306-789-7077
+30                     Shell             4400 4 Ave  306-337-1252
+31                    Shell         Truesdale Drive  306-789-6150
+32       Regina Discount Gas        Winnipeg Street           TBD
+33  Canadian Tire - Gas Plus         Albert Street   306-924-5535
+34                      Esso        Winnipeg Street           TBD
+35             Petro Canada          Albert Street   306-545-3533
+36                      Esso    180 Albert Street N  306-949-5800
+37             Petro Canada          Sherwood Drive  306-545-3533
+38             Petro Canada       Bucking Ham Drive  306-501-9288
+39                    Mobil   Prince of Wales Drive  306-546-6526
+40             Co-op Gas Bar        Winnipeg Street  306-791-9303
+41            Regina Gas Bar         Albert Street   306-791-8890
+42                     Shell          McCarthy Bvld  306-949-6155
+43             Co-op Gas Bar  Prince of Wales Drive  306-791-9334
+44                     Husky  Prince of Wales Drive  306-789-3477
+45              Fas Gas Plus          Edward Street  306-585-6657
+46                  Creeland           Angus Street  306-525-8066
+47                     Shell    310 McCarthy Bvld N  306-949-2550
+48     Petro Pass Truck Stop            529 1 Ave E  306-924-1919
+49             Co-op Gas Bar             Chuka Blvd  306-791-1922
+50           Esso - Cardlock  Prince of Wales Drive           TBD
+51                     Mobil          Rochdale Blvd  306-546-6626
+52          Kleins Food Mart         Pasqua Street   306-791-6362
+53                      Esso          Rochdale Blvd  306-949-5677
+54             Co-op Gas Bar          Rochdale Blvd  306-791-9333
+55                  Flying J            Ross Avenue  306-721-0070
+56                      Esso            Pinkie Road  306-347-0608
+57             Co-op Gas Bar    8501 Dewdney Avenue  306-791-1932
+58                     Domo           Rochdale Blvd           TBD
+59        Costco Gas Station           Anaquod Road  306-271-0912
+60                  7-Eleven      Bucking Ham Drive           TBD
+61                     TEMPO        McDonald Street           TBD
+62             Petro Canada    4415 Albert Street S  306-585-1849
+63                    Husky         McDonald Street  306-721-6880
+64             Cowessess Gas          SK-33 Highway  306-359-6777
+65             Petro Canada         Gravel Pit Road  306-525-6033
+66         Petro Pass Regina            529 1 Ave E  306-721-6667
+67             Co-op Gas Bar      Great Plains Road  306-791-5707
+68                      Esso      Great Plains Road  306-781-2580
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="YPnMoFeNjDjt">
+<hr />
+<h2 id="removing-the-empty-row-"><strong>Removing the empty row</strong>
+<a name="remove"></a></h2>
+<p>As you can see the first row has <code>NaN</code> values which means
+its not a number value. We need to remove it.</p>
+<pre><code>DataFrame.drop(labels=None, *, axis=0, index=None, columns=None, level=None, inplace=False, errors=&#39;raise&#39;)
+</code></pre>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:423}"
+id="0fODLrcTjpnP" data-outputId="c531d2e6-ef1c-4101-ef4d-868fc672b368">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.drop(<span class="dv">0</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>df</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+
+  <div id="df-1cf785e5-3ad8-41c4-a088-5747d29310fc">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>Location</th>
+      <th>Phone Number</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>Mobil</td>
+      <td>Albert Street</td>
+      <td>306-790-1228</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Esso</td>
+      <td>Albert Street</td>
+      <td>306-584-7185</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Canadian Tire - Gas Plus</td>
+      <td>Albert Street</td>
+      <td>306-585-3319</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Co-op Gas Bar</td>
+      <td>Albert Street</td>
+      <td>306-791-8890</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Shell</td>
+      <td>Albert Street</td>
+      <td>306-586-4333</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>Cowessess Gas</td>
+      <td>SK-33 Highway</td>
+      <td>306-359-6777</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>Petro Canada</td>
+      <td>Gravel Pit Road</td>
+      <td>306-525-6033</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>Petro Pass Regina</td>
+      <td>529 1 Ave E</td>
+      <td>306-721-6667</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>Co-op Gas Bar</td>
+      <td>Great Plains Road</td>
+      <td>306-791-5707</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>Esso</td>
+      <td>Great Plains Road</td>
+      <td>306-781-2580</td>
+    </tr>
+  </tbody>
+</table>
+<p>68 rows × 3 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-1cf785e5-3ad8-41c4-a088-5747d29310fc')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-1cf785e5-3ad8-41c4-a088-5747d29310fc button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-1cf785e5-3ad8-41c4-a088-5747d29310fc');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="fXkC9CBXjtWZ">
+<hr />
+<h2 id="information-about-the-data-frame-"><strong>Information about the
+Data Frame</strong> <a name="info"></a></h2>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="xAxq-49ekTTM" data-outputId="85fa1190-02d3-4be3-8ab3-769aa57cdd6a">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 68 entries, 1 to 68
+Data columns (total 3 columns):
+ #   Column        Non-Null Count  Dtype 
+---  ------        --------------  ----- 
+ 0   Name          68 non-null     object
+ 1   Location      68 non-null     object
+ 2   Phone Number  68 non-null     object
+dtypes: object(3)
+memory usage: 1.7+ KB
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="pP3zFTiAnORy">
+<p>What we can understand from this data is that there are <strong>67
+Gas Stations in Regina</strong>. This excludes the first row that is the
+table header.</p>
+</div>
+<div class="cell markdown" id="6UUxCG_Fkdv1">
+<hr />
+<h2 id="key-error-"><strong>Key Error</strong> <a name="key"></a></h2>
+<p>This can be a nightmare sometimes. It took me several hours to find
+the root cause of the problem. The column names had a white space
+appenede at the end. Remove this and your issue will be solved.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="BABXvkDSk98j" data-outputId="acb6dc37-8d0f-45d9-8e79-d0924e8476de">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># This is to check if any white space is appended to the column names</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.columns.tolist())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[&#39;Name&#39;, &#39;Location&#39;, &#39;Phone Number&#39;]
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="Snc6lT36lDnW">
+<hr />
+<h2 id="counting-occurrences-of-a-specific-value-"><strong>Counting
+occurrences of a specific value</strong> <a name="count"></a></h2>
+<pre><code>data[&#39;column_name&#39;].value_counts()[value]</code></pre>
+<p>where</p>
+<ul>
+<li>data is the input dataframe</li>
+<li>value is the string/integer value present in the column to be
+counted</li>
+<li>column_name is the column in the dataframe</li>
+</ul>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="1kfrdrKAszOk" data-outputId="afb0ae1b-6ac8-4f18-985b-8367612b7832">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df[<span class="st">&#39;Location&#39;</span>].value_counts())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Albert Street            14
+Rochdale Blvd             4
+Prince of Wales Drive     4
+Winnipeg Street           3
+Victoria Avenue           3
+McDonald Street           2
+529 1 Ave E               2
+Bucking Ham Drive         2
+Great Plains Road         2
+7th Avenue                2
+Arcola Avenue             2
+Pasqua Street             2
+Saskatchewan Drive        2
+Quance Street             1
+Gravel Pit Road           1
+SK-33 Highway             1
+4415 Albert Street S      1
+Gordon Road               1
+Anaquod Road              1
+8501 Dewdney Avenue       1
+Pinkie Road               1
+Ross Avenue               1
+Hill Avenue               1
+Chuka Blvd                1
+Angus Street              1
+310 McCarthy Bvld N       1
+Halifax Street            1
+Edward Street             1
+McCarthy Bvld             1
+Broadway                  1
+180 Albert Street N       1
+Truesdale Drive           1
+4400 4 Ave                1
+Fleet Street              1
+Park Street               1
+Dewdney Avenue            1
+Sherwood Drive            1
+Name: Location, dtype: int64
+[&#39;Name&#39;, &#39;Location&#39;, &#39;Phone Number&#39;]
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="PiVm9eE6oVFy">
+<hr />
+<h2 id="grouping-specific-column-data-"><strong>Grouping Specific Column
+Data</strong> <a name="group"></a></h2>
+<p>Grouping the column <code>Location</code>, this gives a count of the
+occurances. You call <code>.groupby()</code> and pass the name of the
+column that you want to group on, which is "Location". Then, you use
+<code>["Name"]</code> to specify the columns on which you want to
+perform the actual aggregation.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="w5JDEyP5oYMz" data-outputId="eaacbb92-55d3-49cf-f850-671b04d518a7">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>Location_count <span class="op">=</span> df.groupby(<span class="st">&quot;Location&quot;</span>)[<span class="st">&quot;Name&quot;</span>].count()</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>Location_count</span></code></pre></div>
+<div class="output execute_result" data-execution_count="21">
+<pre><code>Location
+180 Albert Street N       1
+310 McCarthy Bvld N       1
+4400 4 Ave                1
+4415 Albert Street S      1
+529 1 Ave E               2
+7th Avenue                2
+8501 Dewdney Avenue       1
+Albert Street            14
+Anaquod Road              1
+Angus Street              1
+Arcola Avenue             2
+Broadway                  1
+Bucking Ham Drive         2
+Chuka Blvd                1
+Dewdney Avenue            1
+Edward Street             1
+Fleet Street              1
+Gordon Road               1
+Gravel Pit Road           1
+Great Plains Road         2
+Halifax Street            1
+Hill Avenue               1
+McCarthy Bvld             1
+McDonald Street           2
+Park Street               1
+Pasqua Street             2
+Pinkie Road               1
+Prince of Wales Drive     4
+Quance Street             1
+Rochdale Blvd             4
+Ross Avenue               1
+SK-33 Highway             1
+Saskatchewan Drive        2
+Sherwood Drive            1
+Truesdale Drive           1
+Victoria Avenue           3
+Winnipeg Street           3
+Name: Name, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="0LYaE0w9ueVq">
+<hr />
+<h2 id="plotting-the-data-"><strong>Plotting the Data</strong>
+<a name="plot"></a></h2>
+<p>For this we can use the pandas bar plot. A bar plot is a plot that
+presents categorical data with rectangular bars with lengths
+proportional to the values that they represent. A bar plot shows
+comparisons among discrete categories. One axis of the plot shows the
+specific categories being compared, and the other axis represents a
+measured value.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:571}"
+id="yLYMJ1m7t4gI" data-outputId="b83c35ee-23ce-4a1a-fd26-b6e21e217694">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>Location_count.plot.bar(stacked<span class="op">=</span><span class="va">True</span>, figsize <span class="op">=</span> (<span class="dv">15</span>, <span class="dv">4</span>))</span></code></pre></div>
+<div class="output execute_result" data-execution_count="29">
+<pre><code>&lt;Axes: xlabel=&#39;Location&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_7f9f94f348c04af0aee7f6c0ed40ac86/cc4bc95b1bbd1cc69b8c9cf3a8edc2509b4d6c23.png" /></p>
+</div>
+</div>
+<section id="conclusion-" class="cell markdown" id="LgpWZ_66UhDA">
+<h2><strong>Conclusion</strong> <a name= "conclusion"></a></h2>
+<p>Hence there I conclude there are currently 69 Gas Stations in the
+City of Regina. This will dynamic and hence can change frequently. I
+will in the future create a scraper tool that will automatically scrape
+the data so that I don't manually need to add new cells in the Excel
+Sheet. If you have any intresting EDA tools, feel free to let me know.
+If will definetly add it in here. My contact info is
+<code>tanunprabhu95@gmail.com</code>. Thanks for reading my article.
+Stay tuned for more updates. Until then see you next time.</p>
+</section>
+</body>
+</html>
